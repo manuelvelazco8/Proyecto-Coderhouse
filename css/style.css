@@ -181,7 +181,8 @@ nav ul li {
    display: inline-block;
    height: 650px;
    width: 600px;
-   background-color: blue;
+   background: rgb(73,103,255);
+   background: radial-gradient(circle, rgba(73,103,255,1) 0%, rgba(70,217,252,1) 100%);
    margin-top: 50px;
    margin-left: 40px;
    border-radius: 15px;
@@ -191,7 +192,8 @@ nav ul li {
     height: 650px;
     width: 600px;
     float: right;
-    background-color: blue;
+    background: rgb(73,103,255);
+    background: radial-gradient(circle, rgba(73,103,255,1) 0%, rgba(70,217,252,1) 100%);
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 30px;
@@ -238,7 +240,8 @@ nav ul li {
     float: right;
     height: 400px;
     width: 600px;
-    background-color: blue;
+    background: rgb(73,103,255);
+    background: radial-gradient(circle, rgba(73,103,255,1) 0%, rgba(70,217,252,1) 100%);
 }
 
 .contact1 {
