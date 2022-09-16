@@ -70,18 +70,30 @@ nav ul li {
     transform: translate(-50%, -50%);
 }
 
-.container button {
-    font-size: 15px;
+.btnhome {
+    font-size: 1.5rem;
     color: white;
     font-weight: bold;
-    height: 50px;
-    width: 200px;
+    height: 8%;
+    width: 15%;
     position: absolute;
     text-align: center;
     top: 80%;
     padding: 5px 20px 5px 20px 5px;
     border-radius: 10px;
     background-color: rgb(231, 60, 61);
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btnhome:hover {
+    background: rgb(255, 91, 91);
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
+
+.btnhome h4 {
+    padding: 5%;
 }
 
 .container_third {
